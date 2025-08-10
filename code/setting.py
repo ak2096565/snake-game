@@ -1,0 +1,22 @@
+import pygame
+from sys import exit
+from os.path import join
+
+CELL_SIZE=80
+ROW=10
+COLN=16
+WINDOW_WIDTH=COLN*CELL_SIZE
+WINDOW_HEIGHT=ROW*CELL_SIZE
+
+# color
+LIGHT_GREEN=(170,215,81)
+DARK_GREEN=(162,209,73)
+
+# start position  of snake
+START_SIZE=3
+START_ROW=ROW//2
+START_COLLON=START_SIZE+2
+
+# shadow
+SHADOW_SIZE=pygame.Vector2(4,4)
+SHADOW_OPACITY=50
